@@ -4,6 +4,6 @@ function setup(){
   cnv.parent(document.querySelector('main'));
 }
 function draw(){
-  fill('red')
+  fill(255, 0, 0)
   rect(0,0,400,400)
 }
