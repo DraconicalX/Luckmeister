@@ -3,12 +3,12 @@ class Item{
     this.max = 9999;
     this.height = 32;
     this.width = 32;
-    this.invwidth = 24;
-    this.invheight = 24;
-    this.voidTime = 0;
-    this.armor = 0;
-    this.weapon = 0;
-    this.quest = 0;
+    this.invWidth = 24;
+    this.invHeight = 24;
+    this.voidTime = null;
+    this.armor = false;
+    this.weapon = false;
+    this.quest = false;
   }
   stats(){
     // override
