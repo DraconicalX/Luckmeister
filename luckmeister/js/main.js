@@ -1,3 +1,6 @@
+function preload(){
+  enUsJSON = loadJSON("luckmeister/data/en-us.json")
+}
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
   
