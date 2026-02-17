@@ -1,3 +1,5 @@
-"dooble": {
-  "tooltip": "dooble."
+{
+  "test": {
+    "tooltip": "test."
+  }
 }
