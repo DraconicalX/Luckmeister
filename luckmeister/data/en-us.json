@@ -1,5 +1,5 @@
 {
-  "test": {
-    "tooltip": "test."
+  "Item": {
+    "tooltip": "default item."
   }
 }
