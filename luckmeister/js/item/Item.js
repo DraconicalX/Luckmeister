@@ -11,6 +11,7 @@ class Item{
     this.weapon = false;
     this.quest = false;
     this.icon = loadImage("luckmeister/js/item/"+this.constructor.name+".png")
+    console.log("item madeeeee")
   }
   stats(){
     // override
