@@ -10,7 +10,7 @@ class Item{
     this.armor = false;
     this.weapon = false;
     this.quest = false;
-    this.icon = loadImage("luckmeister/js/item/"+this.constructor.name+".png")
+    this.icon = loadImage("/luckmeister/js/item/"+this.constructor.name+".png")
     console.log("item made with path luckmeister/js/item/"+this.constructor.name)
   }
   stats(){
