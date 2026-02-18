@@ -4,6 +4,7 @@ function preload(){
   icon = loadImage("fvc-192.png")
 }
 function setup(){
+  console.log("Setup has started!");
   let cnv = createCanvas(windowWidth, windowHeight);
   
   // cnv.parent(document.querySelector('main'));
