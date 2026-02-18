@@ -16,7 +16,7 @@ class Item{
     // override
   }
 }
-class EldrichAbomination extends Item{
+class EldritchAbomination extends Item{
   stats(){
     this.max = 1
     this.height = 64
