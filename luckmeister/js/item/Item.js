@@ -11,9 +11,17 @@ class Item{
     this.weapon = false;
     this.quest = false;
     this.icon = loadImage("luckmeister/js/item/"+this.constructor.name+".png")
-    console.log("item made with path luckmeister/js/item/"+this.constructor.name)
   }
   stats(){
     // override
+  }
+}
+class EldrichAbomination{
+  stats(){
+    this.max = 1
+    this.height = 64
+    this.width = 64
+    this.voidTime = 20
+    this.weapon = true;
   }
 }
