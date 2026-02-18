@@ -8,7 +8,7 @@ function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
   
   // cnv.parent(document.querySelector('main'));
-  test = new Item();
+  // test = new Item();
 }
 function draw(){
   background(100);
