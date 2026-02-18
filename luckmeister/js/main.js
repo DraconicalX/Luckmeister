@@ -6,8 +6,8 @@ function preload(){
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
   
-  cnv.parent(document.querySelector('main'));
-  let test = new Item();
+  // cnv.parent(document.querySelector('main'));
+  test = new Item();
 }
 function draw(){
   rect(0,0,100,100)
