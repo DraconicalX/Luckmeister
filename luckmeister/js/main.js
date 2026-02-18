@@ -1,5 +1,6 @@
 function preload(){
   enUsJSON = loadJSON("luckmeister/data/en-us.json")
+  tester = loadImage("luckmeister/js/item/Item.png")
 }
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
@@ -10,5 +11,6 @@ function setup(){
 function draw(){
   fill(255, 0, 0)
   image(test.icon,0,0,100,100)
+  image(tester,0,0,100,100)
   
 }
