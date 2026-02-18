@@ -10,6 +10,7 @@ function setup(){
   let test = new Item();
 }
 function draw(){
+  rect(0,0,100,100)
   image(test.icon,0,0,100,100)
   image(tester,0,0,100,100)
   image(icon,0,0,100,100)
