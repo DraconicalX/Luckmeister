@@ -1,4 +1,4 @@
-class inv{
+class inventory{
   constructor(invSlots){
     this.slotCount = invSlots
     this.slot = loadImage("luckmeister/assets/invSlot.png")
