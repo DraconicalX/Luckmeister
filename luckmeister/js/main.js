@@ -9,9 +9,11 @@ function setup(){
   
   cnv.parent(document.querySelector('main'));
   test = new EldritchAbomination();
+  inv = new inventory(12);
 }
 function draw(){
   background(100);
   fill(0,255,0)
   image(test.icon,0,0,100,100)
+  inv = new inventory(12);
 }
