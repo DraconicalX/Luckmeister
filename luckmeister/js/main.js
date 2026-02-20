@@ -11,7 +11,7 @@ function setup(){
   test = new EldritchAbomination();
   testInvItem = test.castToInv();
   inv = new inventorySlot(1);
-  inv.addItem(testInvItem);
+  testInvItem.addToSlot(inv);
   console.log("Setup has ended!");
 }
 function draw(){
