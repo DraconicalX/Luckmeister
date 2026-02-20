@@ -12,11 +12,12 @@ function setup(){
   testInvItem = test.castToInv();
   inv = new inventorySlot(1);
   inv.addItem(testInvItem);
+  console.log("Setup has ended!");
 }
 function draw(){
   background(100);
   fill(0,255,0)
   // image(test.icon,0,0,100,100)
   testInvItem.displayItem()
-  inv = new inventory(12);
+  // inv = new inventory(12);
 }
