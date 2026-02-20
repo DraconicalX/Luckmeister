@@ -18,6 +18,7 @@ function draw(){
   background(100);
   fill(0,255,0)
   // image(test.icon,0,0,100,100)
+  console.log(testInvItem.x)
   testInvItem.displayItem()
   // inv = new inventory(12);
 }
