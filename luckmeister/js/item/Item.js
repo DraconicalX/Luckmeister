@@ -30,13 +30,13 @@ class InvItem{
     this.x = null;
     this.y = null;
   }
-  // addToSlot(slot){
-  //   this.x = slot.x
-  //   this.y = slot.y
-  // }
-  // displayItem(){
-  //   image(this.icon,this.x,this.y,this.width,this.height)
-  // }
+  addToSlot(slot){
+    this.x = slot.x
+    this.y = slot.y
+  }
+  displayItem(){
+    image(this.icon,this.x,this.y,this.width,this.height)
+  }
 }
 class EldritchAbomination extends Item{
   stats(){
