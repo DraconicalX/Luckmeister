@@ -15,6 +15,28 @@ class Item{
   stats(){
     // override
   }
+  castToInv(){
+    return new InvItem(this.width,this.height,this.icon,this.tooltip,this.constructor.name,this.max)
+  }
+}
+class InvItem{
+  constructor(width,height,icon,tooltip,name,max){
+    this.width=width
+    this.height=height
+    this.icon=icon
+    this.tooltip=tooltip
+    this.name=name;
+    this.max = max;
+    this.x = null;
+    this.y = null;
+  }
+  // addToSlot(slot){
+  //   this.x = slot.x
+  //   this.y = slot.y
+  // }
+  displayItem(){
+    image(this.icon,this.x,this.y,this.width,this.height)
+  }
 }
 class EldritchAbomination extends Item{
   stats(){
