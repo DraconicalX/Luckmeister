@@ -5,7 +5,7 @@ class inventory{
     this.slots = []
     for(var i = 0; i<this.slotCount; i++){
       // image(this.slot,i*width/this.slotCount,0,width/this.slotCount,width/this.slotCount)
-      this.slots.push(new )
+      this.slots.push(new inventorySlot(i))
     }
   }
 }
