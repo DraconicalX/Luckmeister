@@ -11,6 +11,7 @@ class inventory{
 }
 class inventorySlot{
   constructor(id){
+    this.icon = loadImage("luckmeister/assets/invSlot.png")
     this.slotNum = id;
     this.item = null;
     this.x = id*width/this.slotCount
@@ -21,7 +22,10 @@ class inventorySlot{
     this.y = 0
   }
   addItem(item){
-    item.x = this.x
-    item.y = this.y
+    this.item = item
+  }
+  display(){
+    image(this.icon,this.x,this.y,width/16,height/16)
+    image(this.item.icon,this.x-(this.item.width-width/16),this.y-(this.item.height-width/16))
   }
 }
